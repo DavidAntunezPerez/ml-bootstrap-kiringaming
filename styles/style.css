@@ -1,0 +1,13 @@
+/*
+  Start date: 26/01/2022
+  Author: David Antúnez Pérez
+  End date: Not ended yet
+*/
+/*CUSTOM COLORS*/
+.bg-krnmain{background-color:#6a4499;}
+/*NAVBAR STYLE*/
+#logo{
+  width: 48px;
+  border-radius: 20%;
+  border:solid 2px #b39ac9;
+}
