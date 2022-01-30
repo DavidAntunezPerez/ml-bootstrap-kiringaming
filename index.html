@@ -20,7 +20,7 @@
   <div id="wrapped" class="container-fluid p-0 mx-auto">
     <!-- BS5 RESPONSIVE NAV -->
     <nav>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-krnmain">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-krnmain sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img id="logo" src="./images/logo.jpg" alt="Kirin Gaming Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,13 +31,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">ABOUT US</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#faq">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#join">Join</a>
+                <a class="nav-link" href="#join">JOIN</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -63,7 +66,7 @@
       </nav>
     </nav>
     <!-- NAVBAR END -->
-    <section>
+    <iv>
       <!--BS5 CAROUSEL-->
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -108,95 +111,121 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </section>
-    <section>
 
-    </section>
-    <section>
+      </section id="aboutus">
+      <!-- ABOUT US SECTION -->
+      <div class="card">
+        <h5 class="card-header fs-1 text-center bg-krnmain text-white">ABOUT US</h5>
+        <div class="card-body">
+          <h5 class="card-title fs-4">GENERAL INFORMATION</h5>
+          <p class="card-text fs-5">We are Kirin Gaming, known in the past as Small Gaming. We are a starting eSport
+            Club,
+            Content Creator supporters and Charity Event founder and we aim to be the best in all those sectors.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title fs-4">GROWING ESPORTS CLUB</h5>
+          <p class="card-text fs-5">We started our eSports Club project within our rebranding to Kirin Gaming in
+            January,
+            2022. In our presentation streaming we presented two Rocket League rosters, the League of Legends roster and
+            finally the VALORANT one. But we are willing to bring Kirin Gaming to many more eSport Games.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title fs-4">CONTENT CREATOR SUPPORT</h5>
+          <p class="card-text fs-5">With Small Gaming, our main focus was to help small streamers develop in Twitch's enviroment. Now that we are Kirin Gaming, we are going to still be helping many small streamers. Also, we have the <b>Kirin Gaming Content Creators Squad</b> with 20 different streamers of various games.</p>
+        </div>
+      </div>
+  </div>
+  <section>
 
-    </section>
-    <section id="faq">
-      <!--BS5 ACCORDION-->
-      <h1 class="text-center my-1">FAQ</h1>
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the first item's accordion body.
-            </div>
+  </section>
+  <section>
+
+  </section>
+  <section id="faq">
+    <!--BS5 ACCORDION-->
+    <h1 class="text-center my-2">FAQ</h1>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the first item's accordion body.
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
-              filled with some actual content.
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+            filled with some actual content.
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+            happening here in terms of content, but just filling up the space to make it look, at least at first
+            glance, a bit more representative of how this would look in a real-world application.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="join" class="mx-5">
+    <!-- JOIN THE CLUB SECTION -->
+    <div class="card">
+      <h2 class="text-center card-header bg-krnmain text-white">JOIN THE CLUB </h2>
+      <div class="container card-body">
+        <div class="row">
+          <!-- <div class="col-xl-3">
+            </div> -->
+          <div class="col-xl-6 card-text text-dark ">
+            <p class="float-start fs-4">Sign up to our newsletter so you never
+              miss out on product drops, news and exclusive offers. </p>
+          </div>
+          <div class="col-xl-6">
+            <!--BS5 MAIL-->
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
+                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                  I accept recieving promotional and informative emails according to our terms
+                </label>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="join" class="mx-5">
-      <!-- JOIN THE CLUB SECTION -->
-      <div class="card">
-        <h2 class="text-center card-header bg-krnmain text-white">JOIN THE CLUB </h2>
-        <div class="container card-body">
-          <div class="row">
-            <!-- <div class="col-xl-3">
-            </div> -->
-            <div class="col-xl-6 card-text text-dark ">
-              <p class="float-start fs-4">Sign up to our newsletter so you never
-                miss out on product drops, news and exclusive offers. </p>
-            </div>
-            <div class="col-xl-6">
-              <!--BS5 MAIL-->
-              <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked
-                    disabled>
-                  <label class="form-check-label" for="flexCheckCheckedDisabled">
-                    I accept recieving promotional and informative emails according to our terms
-                  </label>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-    <footer>xd</footer>
+  </section>
+  <footer>xd</footer>
 
   </div>
 
