@@ -13,3 +13,10 @@
   border-radius: 20%;
   border:solid 2px #b39ac9;
 }
+b{
+  color: #6a4499;
+}
+::selection{
+  color:#fff;
+  background-color:#6a4499;
+}
