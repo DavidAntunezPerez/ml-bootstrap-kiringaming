@@ -2,11 +2,14 @@
   Start date: 26/01/2022
   Author: David Antúnez Pérez
   End date: Not ended yet
+  Color Palette: #472682 ; #be9cea ; #694499 ; #97a2d3 ; #403245 ;
 */
 /*CUSTOM COLORS*/
-.bg-krnmain{background-color:#6a4499;}
-.bg-krnlight{background-color:#b39ac9;}
-.c-light{color:#fff;}
+.bg-krnmain{background-color:#694499;}
+.bg-krn2{background-color:#472682}
+.bg-krnlight{background-color:#be9cea;}
+.bg-krn2{background-color:#97a2d3}
+.bg-krn2{background-color:#403245}
 /*NAVBAR STYLE*/
 #logo{
   width: 48px;
