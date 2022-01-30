@@ -13,3 +13,8 @@
   border-radius: 20%;
   border:solid 2px #b39ac9;
 }
+.navbar{
+  position:sticky !important;
+  position: -webkit-sticky;
+  top: 0;
+}
