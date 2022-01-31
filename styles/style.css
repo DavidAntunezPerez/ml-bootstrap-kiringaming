@@ -24,6 +24,13 @@
 b{
   color: #694499;
 }
+a{  
+  text-decoration: none;
+  color:#694499;
+}
+a:hover{
+  color: #97a2d3;
+}
 
 ::selection{
   color:#fff;
