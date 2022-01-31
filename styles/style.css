@@ -12,7 +12,7 @@
 .bg-krn4{background-color:#403245}
 .bg-krn5{background-color:#be9cea;}
 .bg-krn6{background-color:#35419b;}
-
+.bg-dark{border:#472682} /*TO FIX BLUE-COLOR CHECKBOX ISSUE/*
 /*COLORS*/
 .c-krnmain{color:#694499;}
 .c-krn2{color:#472682}
