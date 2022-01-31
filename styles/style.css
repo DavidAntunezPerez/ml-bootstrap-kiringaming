@@ -20,16 +20,20 @@
 .c-krn4{color:#403245}
 .c-krn5{color:#be9cea;}
 .c-krn6{color:#35419b;}
+/*GENERAL STYLE*/
+b{
+  color: #694499;
+}
+
+::selection{
+  color:#fff;
+  background-color:#694499;
+}
 /*NAVBAR STYLE*/
 #logo{
   width: 48px;
   border-radius: 20%;
   border:solid 2px #b39ac9;
 }
-b{
-  color: #694499;
-}
-::selection{
-  color:#fff;
-  background-color:#694499;
-}
+/*FOOTER STYLE*/
+.kirinfilter{filter: invert(33%) sepia(12%) saturate(3284%) hue-rotate(226deg) brightness(87%) contrast(87%);}
