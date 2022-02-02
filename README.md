@@ -1,5 +1,5 @@
 # Kirin Gaming Esports Club
-This is an Open Source project about a website for the professional organization [**Kirin Gaming**](twitter.com/KirinGamingClub) .
+This is an Open Source project about a website for the professional organization [**Kirin Gaming**](https://twitter.com/KirinGamingClub) .
 Also, this is a project made for MarkDown Language subject in [@IESCampanillas](https://github.com/IESCampanillas).
 
 It is made mainly in Bootstrap framework with additional CSS code and custom HTML.
