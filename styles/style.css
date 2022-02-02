@@ -18,6 +18,9 @@
   font-family: rocketleague;
   src: url(../fonts/rl.otf);
 }
+.f-vlr{font-family: valorant;}
+.f-lol{font-family: leagueoflegends;}
+.f-rl{font-family: rocketleague;}
 /*CUSTOM COLORS*/
 /*BACKGROUNDS*/
 .bg-krnmain {
