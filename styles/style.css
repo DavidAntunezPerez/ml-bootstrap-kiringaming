@@ -81,6 +81,11 @@ b > a:hover {
   border-radius: 20%;
   border: solid 2px #b39ac9;
 }
+/*SVG STYLE*/
+#whistle{
+  width:20px;
+  margin:2.3px;
+}
 /*FOOTER STYLE*/
 .kirinfilter {
   filter: invert(33%) sepia(12%) saturate(3284%) hue-rotate(226deg)
