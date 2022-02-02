@@ -3,7 +3,7 @@
   Author: David Antúnez Pérez
   End date: Not ended yet
   GitHub Repository: https://github.com/DavidAntunezPerez/ml-bootstrap-kiringaming
-  Color Palette: #472682 ; #be9cea ; #694499 ; #97a2d3 ; #403245 ; #35419b ; #ffffff ; #212529 ;
+  Color Palette: #472682 ; #be9cea ; #694499 ; #97a2d3 ; #403245 ; #ffffff ;
 */
 /*CUSTOM COLORS*/
 /*BACKGROUNDS*/
@@ -12,7 +12,6 @@
 .bg-krn3{background-color:#97a2d3}
 .bg-krn4{background-color:#403245}
 .bg-krn5{background-color:#be9cea;}
-.bg-krn6{background-color:#35419b;}
 .bg-dark{border:#472682} /*TO FIX BLUE-COLOR CHECKBOX ISSUE/*
 /*COLORS*/
 .c-krnmain{color:#694499;}
@@ -20,7 +19,6 @@
 .c-krn3{color:#97a2d3}
 .c-krn4{color:#403245}
 .c-krn5{color:#be9cea;}
-.c-krn6{color:#35419b;}
 /*GENERAL STYLE*/
 b{
   color: #694499;
@@ -32,7 +30,9 @@ a{
 a:hover{
   color: #97a2d3;
 }
-
+b>a:hover{
+  color: #472682;
+}
 ::selection{
   color:#fff;
   background-color:#694499;
