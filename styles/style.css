@@ -6,7 +6,18 @@
   Color Palette: #472682 ; #be9cea ; #694499 ; #97a2d3 ; #403245 ; #ffffff ;
 */
 /*FONTS*/
-
+@font-face {
+  font-family: valorant;
+  src: url(../fonts/valorant.ttf);
+}
+@font-face {
+  font-family: leagueoflegends;
+  src: url(../fonts/lol.otf);
+}
+@font-face {
+  font-family: rocketleague;
+  src: url(../fonts/rl.otf);
+}
 /*CUSTOM COLORS*/
 /*BACKGROUNDS*/
 .bg-krnmain {
