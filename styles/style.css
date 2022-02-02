@@ -37,6 +37,7 @@ a:hover{
   color:#fff;
   background-color:#694499;
 }
+.card{border-color: #694499;}
 /*NAVBAR STYLE*/
 #logo{
   width: 48px;
