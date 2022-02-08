@@ -8,4 +8,4 @@ The original code is 100% made by me: [David Antúnez Pérez](https://github.com
 All the images and content are taken from the organization Kirin Gaming with their permission and also from their social media.
 
 ## - PROJECT PREVIEW (SCREENSHOTS):
-[](./images/screenshots/ss1.png)
+![image](./images/screenshots/ss1.png)
