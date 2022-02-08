@@ -9,3 +9,4 @@ All the images and content are taken from the organization Kirin Gaming with the
 
 ## - PROJECT PREVIEW (SCREENSHOTS):
 ![image](./images/screenshots/ss1.png)
+![image](./images/screenshots/ss2.png)
